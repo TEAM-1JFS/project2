@@ -10,10 +10,49 @@
       display: inline-block;
       margin: 10px;
     }
+    *{
+      text-decoration: none;
+    }
+    .navbar{
+      background: cornflowerblue; 
+      font-family: Arial, Helvetica, sans-serif; 
+      padding-right: 15px; 
+      padding-left: 15px;
+    }
+    .navdiv{
+      display: flex; 
+      align-items: center;
+      justify-content: space-between;
+    }
+    li{
+      list-style: none;
+      display: inline;
+    }
+    li a{
+      color: aliceblue;
+      font-size: 15px;
+      font-weight: bold;
+      margin-right: 12px;
+    }
+    button{
+      border-radius: 10px;
+    }
   </style>
 </head>
 
 <body>
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo"><a href="#"></a></div>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT US</a></li>
+        <button><a href="#">LOG-IN</a></button>
+        <button><a href="#">SIGN-UP</a></button>
+      </ul>
+    </div>
+  </nav>
   <center>
     <h1><span style="color: deeppink;">WELCOME TO THE <span style="color: darkmagenta;"> WORLD OF
           ADVENTURES</span></span></h1>
@@ -27,49 +66,48 @@
     <center>
       <h1>UNITED STATES
     </center><br><a
-      href="https://visitidaho.org/things-to-do/?gad_source=1&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh39NLhORXUu3JjUizA7XUUBgSNAjyT14-_TJdOGIcyugVpSwjVP_38aAsaeEALw_wcB"><img
+      href="us.html"><img
         src="assets/images/UnitedStates.webp" alt="TRY AGAIN" height="250px" width="350px"></h1></a>
   </div>
   <div class="image-container">
     <center>
       <h1>AUSTRALIA
     </center><br><a
-      href="https://www.australia.com/en-in/facts-and-planning.html?cid=paid-search|in|SYD798|brand|Google||||||||||&ef_id=Cj0KCQiA7OqrBhD9ARIsAK3UXh3nsvy3WD0uQdreh2KAKP8oX_8aV-Mxg8dje9cxsJwvAlT92aHL9OkaAhJqEALw_wcB:G:s&s_kwcid=AL!4635!3!421357965576!e!!g!!places%20to%20visit%20in%20australia!9509291246!100011233194&utm_actcampaign=9509291246&gad_source=1"><img
-        src="assets/images/Australia.jpeg" alt="TRY AGAIN" height="250px" width="350px"></h1>
+      href="a.html"><img src="assets/images/Australia.jpeg" alt="TRY AGAIN" height="250px" width="350px"></h1>
     </a>
   </div>
   <div class="image-container">
     <center>
       <h1>SWITZERLAND
     </center><br><a
-      href="https://www.youth-hostel.si/en/travelogues/CH?linksubid=PPC-ANG_Travel&gad_source=1&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh3T9_rN4V4pkieUEcn5v84wESrDDFvZvoFsFPbLM18_fLq8cD5jq_YaAhNeEALw_wcB"><img
+      href="sl.html"><img
         src="assets/images/Switzerland.jpeg" alt="TRY AGAIN" height="250px" width="350px"></h1></a>
   </div>
   <div class="image-container">
     <center>
       <h1>AFRICA
-    </center><br><a href="https://www.touropia.com/best-places-to-visit-in-africa/"><img src="assets/images/Africa.jpeg"
+    </center><br><a href="africa.html"><img src="assets/images/Africa.jpeg"
         alt="TRY AGAIN" height="250px" width="350px"></h1></a>
   </div>
   <div class="image-container">
     <center>
       <h1>JAPAN
     </center><br><a
-      href="https://mai-ko.com/travel/japan/travel-japan/things-to-do/must-do-tokyo-attractions/?gad_source=1&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh3tCyUAZawv7N8OpRNUhv5gRQyXNojdKaTX8iXjJA7y72mWtOnk2WMaAuhJEALw_wcB"><img
+      href="j.html"><img
         src="assets/images/Japan.jpeg" alt="TRY AGAIN" height="250px" width="350px"></h1></a>
   </div>
   <div class="image-container">
     <center>
       <h1>NEW ZEALAND
     </center><br><a
-      href="https://www.newzealand.com/in/destinations/?cid=p:sem:IN:0923:Plan:Always-on:google:kwd:all&kwid={targetid}&gclsrc=aw.ds&{_dsmrktparam}&dclid=&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh3WRv6XFe7JdIYlVhxxwduVf9YJ81MNWPY-JYnhpnOCpvtdqZTCIgAaAt17EALw_wcB&gclsrc=aw.ds"><img
+      href="nz.html"><img
         src="assets/images/New Zealand.jpeg" alt="TRY AGAIN" height="250px" width="350px"></h1></a>
   </div>
   <div class="image-container">
     <center>
       <h1>NORWAY
     </center><br><a
-      href="https://www.norwegian.travel/magazine/best-things-to-do-in-norway?gad_source=1&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh3nB9Q0N2uuF7hWoPfM6W08tykGeDvlgVe7kXDhwvBdzjmf6rztLOUaAt2nEALw_wcB"><img
+      href="norway.html"><img
         src="assets/images/Norway.webp" alt="TRY AGAIN" height="250px" width="350px"></h1></a>
   </div>
   <marquee behavior="" direction="right">
@@ -141,23 +179,12 @@
       and
       witnessing the enchanting dance of the Northern Lights, composing a poetic ode to nature's wonders."</p>
   </h2>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/uVzH3rEr9PM?si=xVXVolTSle1CNKZC"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
   <center>
     <footer>
-      <font size="2" color="voilet" face="impact">THANK YOU VISIT AGAIN
+      <font size="3" color="voilet" face="impact">THANK YOU VISIT AGAIN
     </footer>
     </font>
   </center>
-
-
-
-
-
-
-
 </body>
 
 </html>
