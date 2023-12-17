@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+            padding: 0%;
+       
+       }
+       .containeer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        padding-bottom: 70px;
+        
+       }
+       .containeer form{
+        padding: 20px;
+        width: 250px;
+        box-shadow: 0px 5px 10px;
+        background-color: rgb(183, 252, 252);
+       }
+.inputbox{
+    margin-bottom: 15px;
+    display: block;
+}
+.inputbox input{
+   
+    border: 1px solid;
+    padding: 10px 15px;
+    }
+
+    </style>
+</head>
+<body style="background-color: rgb(192, 251, 231);">
+    <div class="containeer">
+        <form action="">
+        <div class="row">
+          <div class="col">
+                <center><h3 class="title"> PAYMENT</h3></center>
+                <br>
+                <hr>
+                <br>
+                <div class="inputbox">
+                    <span>Select payment option</span>
+                    <br>
+                    <br>
+                    <input type="radio" name="payment">paytm <br>
+                     <input type="radio" name="payment">gpay <br>
+                     <input type="radio" name="payment">phonepay <br>
+                </div>
+                <div class="inputbox">
+                    <span>UPI Number:</span>
+                    <input type="number" placeholder="upi number">
+                </div>
+                
+                <div class="inputbox">
+                    <span>Name of the user:</span>
+                    <input type="name" placeholder="user name">
+                </div>
+                <center><img src="assets/images/Screenshot 2023-12-17 122719.png" alt="not found" height="40%" width="75%"></center>
+            </div>
+        </div>
+        <center> <button type="submmit-btn"><a href="index.html">Proceed to submit</a></button></center> 
+    </form>
+    </div>
+</body>
+</html>
